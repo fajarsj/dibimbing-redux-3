@@ -2,6 +2,8 @@
 
 ##### **Petunjuk: Harap Baca dengan Seksama!**
 
+Tugas ini dapat dikerjakan menggunakan Redux Klasik (Rekomendasi) atau Redux Toolkit
+
 #### Extras
 
 - [redux devtools](https://github.com/reduxjs/redux-devtools)
