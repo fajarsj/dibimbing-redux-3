@@ -5,5 +5,5 @@ Ada dua folder vite-starter dan cra-starter. Jika kamu lebih suka menggunakan Vi
 Selamat mengerjakan 😁.
 
 Jika ada pertanyaan mengenai tugas ini, silakan hubungi saya di:
-Linkedin: [fajarsj](https://www.linkedin.com/in/fajarsj/)
-Discord: fajarsj
+- Linkedin: [fajarsj](https://www.linkedin.com/in/fajarsj/)
+- Discord: fajarsj
