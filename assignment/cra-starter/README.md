@@ -244,6 +244,6 @@ export default Modal
 
 #### Tata cara pengumpulan
 
-- Pastikan semua komponen sudah berfungsi dengan baik
+- Pastikan semua sudah berfungsi dengan baik
 - Zip seluruh folder (termasuk semua gambar yang digunakan).
 - Kirimkan file zip melalui platform yang telah ditentukan.
