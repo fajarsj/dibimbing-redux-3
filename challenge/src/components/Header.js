@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <h1>Redux Auth</h1>
+      <h1>Dibimbing Redux Auth</h1>
       {isAuth && (
         <nav>
           <ul>
