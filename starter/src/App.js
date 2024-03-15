@@ -2,6 +2,12 @@ import CreateCustomer from './components/CreateCustomer'
 import Customer from './components/Customer'
 import AccountOperations from './components/AccountOperations'
 import BalanceDisplay from './components/BalanceDisplay'
+import store from './store'
+
+import { deposit } from './features/account/accountSlice'
+
+store.dispatch(deposit(5000))
+console.log(store.getState())
 
 const App = () => {
   return (
