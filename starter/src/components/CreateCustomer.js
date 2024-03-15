@@ -4,7 +4,7 @@ const Customer = () => {
   const [fullName, setfullName] = useState('')
   const [nationalId, setNationalId] = useState('')
 
-  function handleClick() {}
+  const handleClick = () => {}
 
   return (
     <div>
