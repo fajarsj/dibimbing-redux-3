@@ -1,19 +1,19 @@
-import { useState } from "react";
+import { useState } from 'react'
 
-function AccountOperations() {
-  const [depositAmount, setDepositAmount] = useState("");
-  const [withdrawalAmount, setWithdrawalAmount] = useState("");
-  const [loanAmount, setLoanAmount] = useState("");
-  const [loanPurpose, setLoanPurpose] = useState("");
-  const [currency, setCurrency] = useState("USD");
+const AccountOperations = () => {
+  const [depositAmount, setDepositAmount] = useState('')
+  const [withdrawalAmount, setWithdrawalAmount] = useState('')
+  const [loanAmount, setLoanAmount] = useState('')
+  const [loanPurpose, setLoanPurpose] = useState('')
+  const [currency, setCurrency] = useState('USD')
 
-  function handleDeposit() {}
+  const handleDeposit = () => {}
 
-  function handleWithdrawal() {}
+  const handleWithdrawal = () => {}
 
-  function handleRequestLoan() {}
+  const handleRequestLoan = () => {}
 
-  function handlePayLoan() {}
+  const handlePayLoan = () => {}
 
   return (
     <div>
@@ -33,6 +33,7 @@ function AccountOperations() {
             <option value="USD">US Dollar</option>
             <option value="EUR">Euro</option>
             <option value="GBP">British Pound</option>
+            <option value="IDR">Rupiah Indonesia</option>
           </select>
 
           <button onClick={handleDeposit}>Deposit {depositAmount}</button>
@@ -72,7 +73,7 @@ function AccountOperations() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default AccountOperations;
+export default AccountOperations

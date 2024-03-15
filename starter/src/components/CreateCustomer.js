@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState } from 'react'
 
-function Customer() {
-  const [fullName, setFullName] = useState("");
-  const [nationalId, setNationalId] = useState("");
+const Customer = () => {
+  const [fullName, setfullName] = useState('')
+  const [nationalId, setNationalId] = useState('')
 
   function handleClick() {}
 
@@ -14,7 +14,7 @@ function Customer() {
           <label>Customer full name</label>
           <input
             value={fullName}
-            onChange={(e) => setFullName(e.target.value)}
+            onChange={(e) => setfullName(e.target.value)}
           />
         </div>
         <div>
@@ -27,7 +27,7 @@ function Customer() {
         <button onClick={handleClick}>Create new customer</button>
       </div>
     </div>
-  );
+  )
 }
 
-export default Customer;
+export default Customer
