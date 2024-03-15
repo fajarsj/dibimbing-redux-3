@@ -5,7 +5,7 @@ const AccountOperations = () => {
   const [withdrawalAmount, setWithdrawalAmount] = useState('')
   const [loanAmount, setLoanAmount] = useState('')
   const [loanPurpose, setLoanPurpose] = useState('')
-  const [currency, setCurrency] = useState('USD')
+  const [currency, setCurrency] = useState('IDR')
 
   const handleDeposit = () => {}
 
@@ -30,10 +30,10 @@ const AccountOperations = () => {
             value={currency}
             onChange={(e) => setCurrency(e.target.value)}
           >
+            <option value="IDR">Rupiah Indonesia</option>
             <option value="USD">US Dollar</option>
             <option value="EUR">Euro</option>
             <option value="GBP">British Pound</option>
-            <option value="IDR">Rupiah Indonesia</option>
           </select>
 
           <button onClick={handleDeposit}>Deposit {depositAmount}</button>
@@ -68,7 +68,7 @@ const AccountOperations = () => {
         </div>
 
         <div>
-          <span>Pay back $X</span>
+          <span>Pay back Rp.X</span>
           <button onClick={handlePayLoan}>Pay loan</button>
         </div>
       </div>

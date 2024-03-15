@@ -1,7 +1,7 @@
 const formatCurrency = (value) => {
   return new Intl.NumberFormat('en', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'IDR',
   }).format(value)
 }
 
