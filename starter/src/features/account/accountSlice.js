@@ -16,7 +16,7 @@ const accountReducer = (state = initialStateAccount, action) => {
         return {
           ...state,
           loan: action.payload.amount,
-          loadPurpose: action.payload.purpose,
+          loanPurpose: action.payload.purpose,
           balance: state.balance + action.payload.amount,
         }
       }
