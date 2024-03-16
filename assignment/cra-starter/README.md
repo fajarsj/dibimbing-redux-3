@@ -1,6 +1,7 @@
 # Tugas Redux (Dibimbing)
 
 ##### **Petunjuk: Harap Baca dengan Seksama!**
+#### Contoh hasil akhir: https://dibimbing-redux-final-assignment.netlify.app/
 
 Tugas ini dapat dikerjakan menggunakan Redux Klasik (Rekomendasi) atau Redux Toolkit
 
