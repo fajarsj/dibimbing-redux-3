@@ -2,7 +2,7 @@
 
 Ada dua folder vite-starter dan cra-starter. Jika kamu lebih suka menggunakan Vite ketimbang CRA, cukup gunakan folder vite-starter. Fungsionalitas Redux dan Redux Toolkit masih sama di kedua setup tersebut.
 
-Contoh hasil akhir: [https://dibimbing-redux-final-assignment.netlify.app/](https://dibimbing-redux-assignment.netlify.app/)
+Contoh hasil akhir: https://dibimbing-redux-assignment.netlify.app/
 
 Selamat mengerjakan! Semangat dan sukses dalam mengerjakan tugas ini! 😁.
 
