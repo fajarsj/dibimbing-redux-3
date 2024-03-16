@@ -246,4 +246,4 @@ export default Modal
 
 - Pastikan semua sudah berfungsi dengan baik
 - Zip seluruh folder (termasuk semua gambar yang digunakan).
-- Kirimkan file zip melalui platform yang telah ditentukan.
+- Kirimkan file .zip atau link Github melalui platform yang telah ditentukan.
